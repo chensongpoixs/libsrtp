@@ -1,6 +1,14 @@
 /*
+ * util.h
  *
- * Copyright(c) 2001-2017 Cisco Systems, Inc.
+ * Utilities used by the test apps
+ *
+ * John A. Foley
+ * Cisco Systems, Inc.
+ */
+/*
+ *
+ * Copyright (c) 2014-2017, Cisco Systems, Inc.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -33,52 +41,13 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
+#ifndef SRTP_TEST_UTIL_H
+#define SRTP_TEST_UTIL_H
 
-#ifndef CIHPER_TYPES_H
-#define CIHPER_TYPES_H
+#define MAX_PRINT_STRING_LEN 1024
 
-#include "cipher.h"
-#include "auth.h"
-
-/*
- * cipher types that can be included in the kernel
- */
-
-extern const srtp_cipher_type_t srtp_null_cipher;
-extern const srtp_cipher_type_t srtp_aes_icm_128;
-extern const srtp_cipher_type_t srtp_aes_icm_256;
-#ifdef GCM
-extern const srtp_cipher_type_t srtp_aes_icm_192;
-extern const srtp_cipher_type_t srtp_aes_gcm_128;
-extern const srtp_cipher_type_t srtp_aes_gcm_256;
-#endif
-
-/*
- * auth func types that can be included in the kernel
- */
-
-extern const srtp_auth_type_t srtp_null_auth;
-extern const srtp_auth_type_t srtp_hmac;
-
-/*
- * other generic debug modules that can be included in the kernel
- */
-
-extern srtp_debug_module_t srtp_mod_auth;
-extern srtp_debug_module_t srtp_mod_cipher;
-extern srtp_debug_module_t srtp_mod_stat;
-extern srtp_debug_module_t srtp_mod_alloc;
-
-/* debug modules for cipher types */
-extern srtp_debug_module_t srtp_mod_aes_icm;
-#ifdef OPENSSL
-extern srtp_debug_module_t srtp_mod_aes_gcm;
-#endif
-#ifdef NSS
-extern srtp_debug_module_t srtp_mod_aes_gcm;
-#endif
-
-/* debug modules for auth types */
-extern srtp_debug_module_t srtp_mod_hmac;
+int hex_string_to_octet_string(char *raw, char *hex, int len);
+char *octet_string_hex_string(const void *s, int length);
+int base64_string_to_octet_string(char *raw, int *pad, char *base64, int len);
 
 #endif
