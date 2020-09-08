@@ -1,7 +1,7 @@
 /*
- * aes_icm.h
+ * hmac.h
  *
- * Header for AES Integer Counter Mode.
+ * interface to hmac srtp_auth_type_t
  *
  * David A. McGrew
  * Cisco Systems, Inc.
@@ -43,19 +43,16 @@
  *
  */
 
-#ifndef AES_ICM_H
-#define AES_ICM_H
+#ifndef HMAC_H
+#define HMAC_H
 
-#include "cipher.h"
-#include "datatypes.h"
-#include <openssl/evp.h>
-#include <openssl/aes.h>
+#include "auth.h"
+#include "sha1.h"
 
 typedef struct {
-    v128_t counter; /* holds the counter value          */
-    v128_t offset;  /* initial offset value             */
-    int key_size;
-    EVP_CIPHER_CTX *ctx;
-} srtp_aes_icm_ctx_t;
+    uint8_t opad[64];
+    srtp_sha1_ctx_t ctx;
+    srtp_sha1_ctx_t init_ctx;
+} srtp_hmac_ctx_t;
 
-#endif /* AES_ICM_H */
+#endif /* HMAC_H */
