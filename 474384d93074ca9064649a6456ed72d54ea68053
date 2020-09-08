@@ -16,6 +16,108 @@
       "revId": "474384d93074ca9064649a6456ed72d54ea68053",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "911d6fb9_c534311f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1136110
+      },
+      "writtenOn": "2020-09-08T21:39:50Z",
+      "side": 1,
+      "message": "I looked at the diff between the two libsrtp revisions, looks like you got everything. Just have some questions about the NSS support and new build files you\u0027re adding.",
+      "revId": "474384d93074ca9064649a6456ed72d54ea68053",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1c77d3b4_5a5a28bb",
+        "filename": "BUILD.gn",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1136110
+      },
+      "writtenOn": "2020-09-08T21:39:50Z",
+      "side": 1,
+      "message": "Is this something we might do? If not, I\u0027d remove it to make this simpler to maintain.",
+      "revId": "474384d93074ca9064649a6456ed72d54ea68053",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f857e19f_3390d333",
+        "filename": "BUILD.gn",
+        "patchSetId": 5
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1136110
+      },
+      "writtenOn": "2020-09-08T21:39:50Z",
+      "side": 1,
+      "message": "So you\u0027re suggesting building these files even if we don\u0027t use them, expecting them to be optimized out by the linker? That wouldn\u0027t work because you\u0027d get duplicate symbols between hmac.c and hmac_ossl.c",
+      "revId": "474384d93074ca9064649a6456ed72d54ea68053",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6de92fd2_dd6f77a2",
+        "filename": "BUILD.gn",
+        "patchSetId": 5
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1136110
+      },
+      "writtenOn": "2020-09-08T21:39:50Z",
+      "side": 1,
+      "message": "nit: fine",
+      "revId": "474384d93074ca9064649a6456ed72d54ea68053",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9901668a_e69059d0",
+        "filename": "BUILD.gn",
+        "patchSetId": 5
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1136110
+      },
+      "writtenOn": "2020-09-08T21:39:50Z",
+      "side": 1,
+      "message": "This would also need to remove all the *_ossl.c files, and add hmac.c and sha1.c.",
+      "revId": "474384d93074ca9064649a6456ed72d54ea68053",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6fd63159_38be61c7",
+        "filename": "crypto/Makefile.in",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1136110
+      },
+      "writtenOn": "2020-09-08T21:39:50Z",
+      "side": 1,
+      "message": "Is there any reason why you\u0027re adding this and other build files, but not adding the top level build files? Would definitely make it easier to review in the future, since one could quickly compare the differences in make/configure files to the differences in BUILD.gn.",
+      "revId": "474384d93074ca9064649a6456ed72d54ea68053",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba",
+      "unresolved": true
     }
   ]
 }
