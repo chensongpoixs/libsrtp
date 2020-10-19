@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9948560_6f8568c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1170715
+      },
+      "writtenOn": "2020-10-19T17:10:57Z",
+      "side": 1,
+      "message": "Hm, despite being listed as OWNER I don\u0027t have code-review permission. \u003cshrug?\u003e\n\nLGTM. \"Blink \u003e WebRTC\" exists, but that seems more for bugs about integrating WebRTC into Chromium.\n\nI haven\u0027t worked on WebRTC in some time, and phoglund@ has left Google. I pinged some WebRTC-adjacent people to see if they can suggest more attentive OWNERS.",
+      "revId": "1f08b79b0c8394728efe0edb26114053f33a1c57",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
