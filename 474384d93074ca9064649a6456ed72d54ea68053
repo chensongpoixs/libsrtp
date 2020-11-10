@@ -208,6 +208,24 @@
       "message": "Is there any reason why you\u0027re adding this and other build files, but not adding the top level build files? Would definitely make it easier to review in the future, since one could quickly compare the differences in make/configure files to the differences in BUILD.gn.",
       "revId": "474384d93074ca9064649a6456ed72d54ea68053",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55d81dd0_fe3f8ba6",
+        "filename": "crypto/Makefile.in",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2020-11-10T07:51:50Z",
+      "side": 1,
+      "message": "Done, no real reason for this. I just synced the sub-directories but not the top level (the update procedure is quite convoluted).\n\nDone.",
+      "parentUuid": "6fd63159_38be61c7",
+      "revId": "474384d93074ca9064649a6456ed72d54ea68053",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
