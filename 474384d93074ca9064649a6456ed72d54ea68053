@@ -105,6 +105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "989776ca_1ed837bc",
+        "filename": "BUILD.gn",
+        "patchSetId": 5
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1136110
+      },
+      "writtenOn": "2020-11-10T02:14:20Z",
+      "side": 1,
+      "message": "Looks fine to me.",
+      "parentUuid": "1d3a1cbe_3e2436ca",
+      "revId": "474384d93074ca9064649a6456ed72d54ea68053",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6de92fd2_dd6f77a2",
