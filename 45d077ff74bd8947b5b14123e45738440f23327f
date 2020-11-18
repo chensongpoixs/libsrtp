@@ -16,6 +16,23 @@
       "message": "As agreed with terelius@, it is safer for this roll to only roll the files we need and delete the others (smaller diff to check, from 7000 lines to less than 1000).\n\nI am testing this roll in WebRTC here: https://webrtc-review.googlesource.com/c/src/+/193921.\n\nFuture work will have to automate the roll entirely.",
       "revId": "45d077ff74bd8947b5b14123e45738440f23327f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65252195_fc7594ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2020-11-18T14:12:10Z",
+      "side": 1,
+      "message": "Adding lennart.grahl@gmail.com, who is interested into this for https://webrtc-review.googlesource.com/c/src/+/177980.",
+      "revId": "45d077ff74bd8947b5b14123e45738440f23327f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
