@@ -50,6 +50,23 @@
       "message": "I\u0027m not a committer so I can\u0027t +1, but looks good.",
       "revId": "45d077ff74bd8947b5b14123e45738440f23327f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d404484c_60a9351a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1191289
+      },
+      "writtenOn": "2020-11-19T09:24:40Z",
+      "side": 1,
+      "message": "LGTM, but I\u0027m not a chromium committer.",
+      "revId": "45d077ff74bd8947b5b14123e45738440f23327f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
