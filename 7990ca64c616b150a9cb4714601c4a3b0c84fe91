@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d35966f_29c4a894",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2020-11-19T09:38:26Z",
+      "side": 1,
+      "message": "TBR mattdr@chromium.org, but there is already an LGTM from deadbeef@ and from terelius@ (even if they cannot officially +1).",
+      "revId": "7990ca64c616b150a9cb4714601c4a3b0c84fe91",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
