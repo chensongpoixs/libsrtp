@@ -16,6 +16,47 @@
       "message": "Adding perkj@ as a backup OWNER (we need OWNERS with CR+1 rights).",
       "revId": "5203946ad8916328632000098aca67e4ec7f6d43",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08a91bfc_64aa28a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1115987
+      },
+      "writtenOn": "2021-02-04T08:55:15Z",
+      "side": 1,
+      "message": "Should it maybe be someone actively working on Chrome ? Guido? Hbos?",
+      "parentUuid": "beac5bb3_75bde599",
+      "revId": "5203946ad8916328632000098aca67e4ec7f6d43",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6aed6b0_5dfb67d7",
+        "filename": "OWNERS",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1115987
+      },
+      "writtenOn": "2021-02-04T08:55:15Z",
+      "side": 1,
+      "message": "If you want me, maybe mention that I am the backup? I know very little about this.",
+      "range": {
+        "startLine": 2,
+        "startChar": 6,
+        "endLine": 2,
+        "endChar": 14
+      },
+      "revId": "5203946ad8916328632000098aca67e4ec7f6d43",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
