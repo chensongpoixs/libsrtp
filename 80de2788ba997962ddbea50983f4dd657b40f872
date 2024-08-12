@@ -111,6 +111,30 @@
       },
       "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52bd15a8_84cb08c4",
+        "filename": "BUILD.gn",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 3372062
+      },
+      "writtenOn": "2024-08-12T17:07:19Z",
+      "side": 1,
+      "message": "Done. Is there an example of how to configure a third party library build options? This build file declares args but I did not see any example of how to use it.\n\nAlso ugh, running gn format on this file changes *a ton*. Will do in next CL which actually updates libsrtp :-)",
+      "parentUuid": "8e3cec1b_64909e62",
+      "range": {
+        "startLine": 137,
+        "startChar": 6,
+        "endLine": 137,
+        "endChar": 25
+      },
+      "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
