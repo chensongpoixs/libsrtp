@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1339522f_7596ebf6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3372062
+      },
+      "writtenOn": "2024-08-12T03:34:11Z",
+      "side": 1,
+      "message": "weird build deps for 200!",
+      "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
