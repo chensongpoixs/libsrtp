@@ -87,6 +87,30 @@
       },
       "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e3cec1b_64909e62",
+        "filename": "BUILD.gn",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2024-08-12T16:00:39Z",
+      "side": 1,
+      "message": "Can you at least add a comment?\n\nI suspect we are not there yet in terms of proper design of this use case. But having a comment would help.",
+      "parentUuid": "2502bdf0_71f588ad",
+      "range": {
+        "startLine": 137,
+        "startChar": 6,
+        "endLine": 137,
+        "endChar": 25
+      },
+      "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
