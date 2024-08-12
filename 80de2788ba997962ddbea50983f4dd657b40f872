@@ -63,6 +63,30 @@
       },
       "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2502bdf0_71f588ad",
+        "filename": "BUILD.gn",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 3372062
+      },
+      "writtenOn": "2024-08-12T15:39:29Z",
+      "side": 1,
+      "message": "I don\u0027t like that magic either but that ultimately means we need to pull the whole rtc_build_ssl and its custom include paths here as well which is just the overkill I am trying to avoid.",
+      "parentUuid": "50a88e9f_518265f5",
+      "range": {
+        "startLine": 137,
+        "startChar": 6,
+        "endLine": 137,
+        "endChar": 25
+      },
+      "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
