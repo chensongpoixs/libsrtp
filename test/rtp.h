@@ -122,15 +122,15 @@ int srtp_sender_init(
     rtp_sender_t rtp_ctx,              /* structure to be init'ed */
     struct sockaddr_in name,           /* socket name             */
     srtp_sec_serv_t security_services, /* sec. servs. to be used  */
-    unsigned char *input_key           /* master key/salt in hex  */
-    );
+    unsigned char* input_key           /* master key/salt in hex  */
+);
 
 int srtp_receiver_init(
     rtp_receiver_t rtp_ctx,            /* structure to be init'ed */
     struct sockaddr_in name,           /* socket name             */
     srtp_sec_serv_t security_services, /* sec. servs. to be used  */
-    unsigned char *input_key           /* master key/salt in hex  */
-    );
+    unsigned char* input_key           /* master key/salt in hex  */
+);
 
 int rtp_sender_init_srtp(rtp_sender_t sender, const srtp_policy_t *policy);
 
