@@ -16,6 +16,29 @@
       "message": "weird build deps for 200!",
       "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a8af8e52_d576238d",
+        "filename": "BUILD.gn",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2024-08-12T06:56:11Z",
+      "side": 1,
+      "message": "I would prefer its own variable (e.g. libsrtp_dep_on_boringssl). WDYT?\nDefault to true, and possibility to override it.\n\nIt looks overkill but I don\u0027t like the fact that \"normal WebRTC builds already depend on boringssl\".",
+      "range": {
+        "startLine": 137,
+        "startChar": 6,
+        "endLine": 137,
+        "endChar": 25
+      },
+      "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
