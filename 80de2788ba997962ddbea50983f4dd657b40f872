@@ -39,6 +39,30 @@
       },
       "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50a88e9f_518265f5",
+        "filename": "BUILD.gn",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2024-08-12T06:57:19Z",
+      "side": 1,
+      "message": "I mean, I think libsrtp should depend on boringssl also when not built with Chromium and not assume the linker is going to find out how to resolve the symbols because WebRTC already has a dependency.",
+      "parentUuid": "a8af8e52_d576238d",
+      "range": {
+        "startLine": 137,
+        "startChar": 6,
+        "endLine": 137,
+        "endChar": 25
+      },
+      "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
