@@ -135,6 +135,30 @@
       },
       "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6eeec624_59e7e4ea",
+        "filename": "BUILD.gn",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2024-08-12T17:28:01Z",
+      "side": 1,
+      "message": "I think https://source.chromium.org/chromium/chromium/src/+/main:third_party/libaom/options.gni might be a good example.\n\nBut yes, this file and the project need some effort to bring them in a better shape.",
+      "parentUuid": "52bd15a8_84cb08c4",
+      "range": {
+        "startLine": 137,
+        "startChar": 6,
+        "endLine": 137,
+        "endChar": 25
+      },
+      "revId": "80de2788ba997962ddbea50983f4dd657b40f872",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
