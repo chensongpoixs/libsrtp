@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1be85ab6_726f3ca0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3372062
+      },
+      "writtenOn": "2024-08-15T02:10:37Z",
+      "side": 1,
+      "message": "Lets do this if the other thing sticks and directly after a branch cut.\n\nMost efficient way to review this is probably to do a git cl patch, grab upstream from github and copy all files over. This will create a lot of untracked files but no diffs (I did this myself in the last PS and whoops, I forgot a few!)",
+      "revId": "99c32522a63b59a5d64091bb71731d31894071d9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "039c8c80_1c4838a4",
+        "filename": "crypto/cipher/aes_gcm_ossl.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 3372062
+      },
+      "writtenOn": "2024-08-15T02:10:37Z",
+      "side": 1,
+      "message": "this seems a bit odd style-wise and forces us to include the tests. I can check with upstream if we can ifdef this. Maybe a small binary size win ;-)",
+      "revId": "99c32522a63b59a5d64091bb71731d31894071d9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f31f0cf8_a3f2d2b8",
+        "filename": "crypto/cipher/cipher_test_cases.h",
+        "patchSetId": 8
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 3372062
+      },
+      "writtenOn": "2024-08-15T02:10:37Z",
+      "side": 1,
+      "message": "upstream nit: cipher",
+      "revId": "99c32522a63b59a5d64091bb71731d31894071d9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
