@@ -16,6 +16,23 @@
       "message": "Moar OpenSSL things!",
       "revId": "62524507bbffa470f3a83f3a4105aca81a96f398",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4512bfc_e8a65c2e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3372062
+      },
+      "writtenOn": "2024-08-20T01:32:23Z",
+      "side": 1,
+      "message": "do I need to manually bump the Chromium DEPS file? Saw the new hash was not in the chromium-to-webrtc roll",
+      "revId": "62524507bbffa470f3a83f3a4105aca81a96f398",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
