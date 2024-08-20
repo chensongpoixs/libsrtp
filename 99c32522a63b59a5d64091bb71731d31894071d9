@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5b646cb_55585221",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2024-08-20T07:28:49Z",
+      "side": 1,
+      "message": "Thanks.\n\nSince we are here, WDYT about switching to a mode where we have //third_party/libsrtp/BUILD.gn checked into Chromium\u0027s //third_party and then we add an entry into DEPS to fetch src/third_party/libsrtp/src.\n\nSo we remove the need to do the manual stuff, and we just have to change the commit pointed by DEPS and fix the BUILD.gn in the same CL.\n\nI know it is a bit more work, but the current state of libsrtp is not great and this is part of the reason it doesn\u0027t get rolled often.",
+      "parentUuid": "1be85ab6_726f3ca0",
+      "revId": "99c32522a63b59a5d64091bb71731d31894071d9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "039c8c80_1c4838a4",

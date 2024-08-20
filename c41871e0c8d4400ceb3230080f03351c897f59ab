@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27b812bf_fe8b61b5",
+        "filename": "README.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2024-08-20T07:28:49Z",
+      "side": 1,
+      "message": "Nit: remove empty space.",
+      "range": {
+        "startLine": 236,
+        "startChar": 0,
+        "endLine": 236,
+        "endChar": 2
+      },
+      "revId": "c41871e0c8d4400ceb3230080f03351c897f59ab",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
