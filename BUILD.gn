@@ -133,13 +133,14 @@ static_library("libsrtp") {
     # "crypto/cipher/aes_icm_nss.c",
   ]
 
-  # Only add the dependency when build_with_chromium is true
-  # to avoid linking with BoringSSL when WebRTC is built with OpenSSL
-  # instead of BoringSSL which creates issues since the libraries are
-  # not binary-compatible.
-  # TODO(issues.webrtc.org/issues/42234521): provide better configuration options.
+  # Only add the dependency when build_with_chromium or
+  # libsrtp_uses_boringssl  is true to avoid linking with BoringSSL when WebRTC
+  # is built with OpenSSL instead of BoringSSL which creates issues since
+  # the libraries are not binary-compatible.
+  # TODO(issues.webrtc.org/issues/42234521): provide options for
+  #   configuring the OpenSSL include path.
   public_deps = []
-  if (build_with_chromium) {
+  if (build_with_chromium || libsrtp_uses_boringssl) {
     public_deps += [ "//third_party/boringssl:boringssl" ]
   }
 }
