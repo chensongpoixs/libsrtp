@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c942289_634cdde6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3372062
+      },
+      "writtenOn": "2024-08-21T02:41:23Z",
+      "side": 1,
+      "message": "roll needs to be fixed first..",
+      "revId": "c41871e0c8d4400ceb3230080f03351c897f59ab",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "27b812bf_fe8b61b5",
@@ -14,6 +31,30 @@
       "writtenOn": "2024-08-20T07:28:49Z",
       "side": 1,
       "message": "Nit: remove empty space.",
+      "range": {
+        "startLine": 236,
+        "startChar": 0,
+        "endLine": 236,
+        "endChar": 2
+      },
+      "revId": "c41871e0c8d4400ceb3230080f03351c897f59ab",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ddc85fb_16fba6dc",
+        "filename": "README.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 3372062
+      },
+      "writtenOn": "2024-08-21T02:41:23Z",
+      "side": 1,
+      "message": "Already fixed upstream so lets keep for the post-2.6 update :-)",
+      "parentUuid": "27b812bf_fe8b61b5",
       "range": {
         "startLine": 236,
         "startChar": 0,
