@@ -56,6 +56,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "aecb3456_f4d69acf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2024-09-22T16:51:18Z",
+      "side": 1,
+      "message": "Yes, let\u0027s do that. It will make the review much quicker.\n\nThanks for working on this roll and for looking into libsrtp and next releases!\n\nLGTM.",
+      "parentUuid": "25e255bc_8ac6c1b5",
+      "revId": "99c32522a63b59a5d64091bb71731d31894071d9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "039c8c80_1c4838a4",
         "filename": "crypto/cipher/aes_gcm_ossl.c",
         "patchSetId": 8

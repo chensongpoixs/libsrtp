@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7c9e964_fe0f57c1",
+        "filename": "include/ut_sim.h",
+        "patchSetId": 11
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2024-09-22T16:51:18Z",
+      "side": 0,
+      "message": "This has been moved to test/ut_sim.h but not in this CL.\n\nIs this a manual change because it is not needed by tests?",
+      "revId": "62524507bbffa470f3a83f3a4105aca81a96f398",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
