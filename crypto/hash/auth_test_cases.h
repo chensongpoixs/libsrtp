@@ -1,14 +1,6 @@
 /*
- * getopt.h
  *
- * interface to a minimal implementation of the getopt() function,
- * written so that test applications that use that function can run on
- * non-POSIX platforms
- *
- */
-/*
- *
- * Copyright (c) 2001-2017 Cisco Systems, Inc.
+ * Copyright (c) 2013-2021, Cisco Systems, Inc.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -42,26 +34,15 @@
  *
  */
 
-#ifndef GETOPT_S_H
-#define GETOPT_S_H
+#ifndef AUTH_TEST_CASES_H
+#define AUTH_TEST_CASES_H
 
-#ifdef __cplusplus
-extern "C" {
+#ifdef HAVE_CONFIG_H
+#include <config.h>
 #endif
 
-/*
- * getopt_s(), optarg_s, and optind_s are small, locally defined
- * versions of the POSIX standard getopt() interface.
- */
+#include "auth.h"
 
-int getopt_s(int argc, char *const argv[], const char *optstring);
+extern const srtp_auth_test_case_t srtp_hmac_test_case_0;
 
-extern char *optarg_s; /* defined in getopt.c */
-
-extern int optind_s; /* defined in getopt.c */
-
-#ifdef __cplusplus
-}
 #endif
-
-#endif /* GETOPT_S_H */
