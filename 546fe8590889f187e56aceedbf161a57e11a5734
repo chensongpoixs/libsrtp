@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da85cb2e_84ebcf98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3372062
+      },
+      "writtenOn": "2024-09-25T16:35:45Z",
+      "side": 1,
+      "message": "will land after next branch cut on October 14th (not in a hurry)",
+      "revId": "546fe8590889f187e56aceedbf161a57e11a5734",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
