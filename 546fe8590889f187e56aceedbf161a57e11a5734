@@ -16,6 +16,23 @@
       "message": "will land after next branch cut on October 14th (not in a hurry)",
       "revId": "546fe8590889f187e56aceedbf161a57e11a5734",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d345285b_9b4141e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3372062
+      },
+      "writtenOn": "2024-10-18T09:27:36Z",
+      "side": 1,
+      "message": "interop tested between custom build and stable but it looks like I can not land myself",
+      "revId": "546fe8590889f187e56aceedbf161a57e11a5734",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
