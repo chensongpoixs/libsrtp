@@ -16,6 +16,23 @@
       "message": "there was more... run_all_tests hangs with\n  ./rtpw_test.sh: 118: kill: No such process\nbut that is one of the last steps of the testsuite (which I bet is not run often so it might have been broken before)",
       "revId": "52355b419afcef129f93c45bfec3f934ee8666d4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea782ba6_e0628244",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002781
+      },
+      "writtenOn": "2024-10-21T12:18:40Z",
+      "side": 1,
+      "message": "+1 but do not have have committer status in Chromium.",
+      "revId": "52355b419afcef129f93c45bfec3f934ee8666d4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
