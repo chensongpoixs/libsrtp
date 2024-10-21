@@ -12,7 +12,7 @@ declare_args() {
 }
 
 config("external_ssl_library") {
- if (libsrtp_ssl_root != "") {
+  if (libsrtp_ssl_root != "") {
     include_dirs = [ libsrtp_ssl_root ]
   }
   libs = [
@@ -107,7 +107,6 @@ static_library("libsrtp") {
     "crypto/include/rdb.h",
     "crypto/include/rdbx.h",
     "include/srtp_priv.h",
-    "include/ut_sim.h",
 
     # sources
     "crypto/cipher/aes_gcm_ossl.c",
@@ -167,10 +166,10 @@ if (build_libsrtp_tests) {
       configs += [ ":srtp_test_config" ]
       deps = [ ":libsrtp" ]
       sources = [
-                  "crypto/replay/ut_sim.c",
                   "include/getopt_s.h",
-                  "include/ut_sim.h",
                   "test/getopt_s.c",
+                  "test/ut_sim.c",
+                  "test/ut_sim.h",
                   "test/util.c",
                   "test/util.h",
                 ] + invoker.sources
