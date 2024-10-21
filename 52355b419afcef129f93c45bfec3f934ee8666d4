@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cc4f57b_f4d15c61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1234564
+      },
+      "writtenOn": "2024-10-21T08:13:00Z",
+      "side": 1,
+      "message": "there was more... run_all_tests hangs with\n  ./rtpw_test.sh: 118: kill: No such process\nbut that is one of the last steps of the testsuite (which I bet is not run often so it might have been broken before)",
+      "revId": "52355b419afcef129f93c45bfec3f934ee8666d4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
