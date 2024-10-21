@@ -33,6 +33,23 @@
       "message": "+1 but do not have have committer status in Chromium.",
       "revId": "52355b419afcef129f93c45bfec3f934ee8666d4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc698d6f_964f5098",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1143639
+      },
+      "writtenOn": "2024-10-21T12:45:33Z",
+      "side": 1,
+      "message": "non-owner lgtm",
+      "revId": "52355b419afcef129f93c45bfec3f934ee8666d4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
