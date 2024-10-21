@@ -67,6 +67,24 @@
       "message": "Per, do you remember how you ended up owning this? ;-)",
       "revId": "52355b419afcef129f93c45bfec3f934ee8666d4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f8e652e_78c68590",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1115987
+      },
+      "writtenOn": "2024-10-21T13:02:25Z",
+      "side": 1,
+      "message": "No I had not idea I am an owner or that it actually exist. ..... \nhttps://chromium.googlesource.com/chromium/deps/libsrtp/+/4bc69e6caccecadd36b32a709473452251333aff%5E%21/OWNERS\n\nLooks like @mbonadei@webrtc.org is OOO.",
+      "parentUuid": "3f630488_3a08059c",
+      "revId": "52355b419afcef129f93c45bfec3f934ee8666d4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
