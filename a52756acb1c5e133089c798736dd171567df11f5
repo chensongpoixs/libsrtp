@@ -16,6 +16,23 @@
       "message": "I hope that is it but we won\u0027t know until it is merged.-\n\nThe other compilation issue is a fuzzer but that can be fixed in Chromium when bumping.",
       "revId": "a52756acb1c5e133089c798736dd171567df11f5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cfa2eff_4a189495",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1115987
+      },
+      "writtenOn": "2024-10-22T12:02:18Z",
+      "side": 1,
+      "message": "If you want more work, I think it would make sense to add Harald as owner. \n\nlgtm",
+      "revId": "a52756acb1c5e133089c798736dd171567df11f5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
