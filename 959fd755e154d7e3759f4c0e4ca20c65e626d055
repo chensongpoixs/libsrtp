@@ -16,6 +16,23 @@
       "message": "gn check was complaining - rightfully so!",
       "revId": "959fd755e154d7e3759f4c0e4ca20c65e626d055",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc16ffc1_433e0425",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002823
+      },
+      "writtenOn": "2025-05-05T19:46:01Z",
+      "side": 1,
+      "message": "Assume you know what you\u0027re doing.",
+      "revId": "959fd755e154d7e3759f4c0e4ca20c65e626d055",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
