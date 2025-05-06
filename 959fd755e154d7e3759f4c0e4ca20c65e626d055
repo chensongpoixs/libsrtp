@@ -50,6 +50,24 @@
       "message": "hrm... why does this show review-enforcement is unsatisfied?!",
       "revId": "959fd755e154d7e3759f4c0e4ca20c65e626d055",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9bcfbcf_9ad05d4a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1178490
+      },
+      "writtenOn": "2025-05-06T07:08:34Z",
+      "side": 1,
+      "message": "I opened a bug, trying to understand why.",
+      "parentUuid": "c130c3c4_00553dd3",
+      "revId": "959fd755e154d7e3759f4c0e4ca20c65e626d055",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
