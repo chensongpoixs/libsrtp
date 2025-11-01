@@ -46,7 +46,11 @@
 #define SRTP_PRIV_H
 
 // Leave this as the top level import. Ensures the existence of defines
+#if !OPEN_DEPS
 #include "config.h"
+
+
+#endif // OPEN_DEPS
 
 #include "srtp.h"
 #include "rdbx.h"
@@ -57,6 +61,9 @@
 #include "aes.h"
 #include "key.h"
 #include "crypto_kernel.h"
+#include "srtp.h"
+ 
+
 
 #ifdef __cplusplus
 extern "C" {

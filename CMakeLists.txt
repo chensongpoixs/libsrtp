@@ -67,6 +67,8 @@ endif()
 set(OPENSSL ${ENABLE_OPENSSL} CACHE BOOL INTERNAL)
 set(GCM ${ENABLE_OPENSSL} CACHE BOOL INTERNAL)
 
+
+message(status "===============>${ENABLE_OPENSSL} ==> ${OPENSSL_INCLUDE_DIR}==> ")
 set(CONFIG_FILE_DIR ${CMAKE_CURRENT_BINARY_DIR})
 include_directories(${CONFIG_FILE_DIR})
 
@@ -155,11 +157,11 @@ set(SOURCES_H
   ${CONFIG_FILE_DIR}/config.h
 )
 
-if(BUILD_SHARED_LIBS AND WIN32)
-  list(APPEND SOURCES_C
-    srtp.def
-  )
-endif()
+#if(BUILD_SHARED_LIBS AND WIN32)
+ # list(APPEND SOURCES_C
+ #   srtp.def
+ # )
+#endif()
 
 source_group("src" FILES ${SOURCES_C})
 source_group("src\\Ciphers" FILES ${CIPHERS_SOURCES_C})
@@ -169,7 +171,7 @@ source_group("src\\Math" FILES ${MATH_SOURCES_C})
 source_group("src\\Replay" FILES ${REPLAY_SOURCES_C})
 source_group("include" FILES ${SOURCES_H})
 
-add_library(${PROJECT_NAME}
+add_library(${PROJECT_NAME}  STATIC
   ${SOURCES_C}
   ${CIPHERS_SOURCES_C}
   ${HASHES_SOURCES_C}
