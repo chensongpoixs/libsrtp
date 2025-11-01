@@ -43,22 +43,15 @@ case $(uname -s) in
         ;;
     *Linux*)
         EXE=""
-        if [ -n "$CRYPTO_LIBDIR" ]
-        then
-            export LD_LIBRARY_PATH="$CRYPTO_LIBDIR"
-        fi
+        export LD_LIBRARY_PATH=$CRYPTO_LIBDIR
         ;;
     *Darwin*)
         EXE=""
-        if [ -n "$CRYPTO_LIBDIR" ]
-        then
-            export DYLD_LIBRARY_PATH="$CRYPTO_LIBDIR"
-        fi
+        export DYLD_LIBRARY_PATH=$CRYPTO_LIBDIR
         ;;
 esac
 
 RTPW=./rtpw$EXE
-[ -n "$MESON_EXE_WRAPPER" ] && RTPW="$MESON_EXE_WRAPPER $RTPW"
 DEST_PORT=9999
 DURATION=3
 
@@ -66,15 +59,15 @@ key=Ky7cUDT2GnI0XKWYbXv9AYmqbcLsqzL9mvdN9t/G
 
 ARGS="-b $key -a -e 128"
 
-# First, we run "pkill" to get rid of all existing rtpw processes.
+# First, we run "killall" to get rid of all existing rtpw processes.
 # This step also enables this script to clean up after itself; if this
 # script is interrupted after the rtpw processes are started but before
 # they are killed, those processes will linger.  Re-running the script
 # will get rid of them.
 
-pkill -x rtpw 2>/dev/null
+killall rtpw 2>/dev/null
 
-if test -n $MESON_EXE_WRAPPER || test -x $RTPW; then
+if test -x $RTPW; then
 
 echo  $0 ": starting rtpw receiver process... "
 
